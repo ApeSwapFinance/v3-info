@@ -108,17 +108,6 @@ async function fetchChartData(client: ApolloClient<NormalizedCacheObject>) {
       timestamp = nextDay
     }
 
-    if (client === optimismClient) {
-      formattedExisting[18855] = {
-        ...formattedExisting[18855],
-        tvlUSD: 13480000,
-      }
-      formattedExisting[18856] = {
-        ...formattedExisting[18856],
-        tvlUSD: 13480000,
-      }
-    }
-
     return {
       data: Object.values(formattedExisting),
       error: false,

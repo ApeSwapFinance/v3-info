@@ -120,7 +120,7 @@ export const optimismClient = new ApolloClient({
 })
 
 export const bscClient = new ApolloClient({
-  uri: 'https://api.thegraph.com/subgraphs/name/ianlapham/uniswap-v3-bsc',
+  uri: 'https://api.thegraph.com/subgraphs/name/prof-sd/as-bsc-v3',
   cache: new InMemoryCache({
     typePolicies: {
       Token: {
@@ -178,7 +178,7 @@ export const optimismBlockClient = new ApolloClient({
 })
 
 export const polygonClient = new ApolloClient({
-  uri: 'https://api.thegraph.com/subgraphs/name/ianlapham/uniswap-v3-polygon',
+  uri: 'https://api.thegraph.com/subgraphs/name/prof-sd/as-polygon-v3',
   cache: new InMemoryCache({
     typePolicies: {
       Token: {

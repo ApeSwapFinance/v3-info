@@ -30,7 +30,7 @@ export type NetworkInfo = {
 export const EthereumNetworkInfo: NetworkInfo = {
   chainId: SupportedChainId.MAINNET,
   id: SupportedNetwork.ETHEREUM,
-  route: '',
+  route: 'ethereum',
   name: 'Ethereum',
   bgColor: '#fc077d',
   primaryColor: '#fc077d',
@@ -95,11 +95,4 @@ export const BNBNetworkInfo: NetworkInfo = {
   blurb: '',
 }
 
-export const SUPPORTED_NETWORK_VERSIONS: NetworkInfo[] = [
-  EthereumNetworkInfo,
-  PolygonNetworkInfo,
-  OptimismNetworkInfo,
-  ArbitrumNetworkInfo,
-  CeloNetworkInfo,
-  BNBNetworkInfo,
-]
+export const SUPPORTED_NETWORK_VERSIONS: NetworkInfo[] = [PolygonNetworkInfo, BNBNetworkInfo]

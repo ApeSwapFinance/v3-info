@@ -97,21 +97,9 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://uniswap.org/">
+          <MenuItem id="link" href="https://apeswap.finance">
             <Info size={14} />
             About
-          </MenuItem>
-          <MenuItem id="link" href="https://docs.uniswap.org/">
-            <BookOpen size={14} />
-            Docs
-          </MenuItem>
-          <MenuItem id="link" href={CODE_LINK}>
-            <Code size={14} />
-            Github
-          </MenuItem>
-          <MenuItem id="link" href="https://discord.gg/FCfyBSbCU5">
-            <MessageCircle size={14} />
-            Discord
           </MenuItem>
         </MenuFlyout>
       )}

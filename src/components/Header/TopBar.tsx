@@ -37,7 +37,7 @@ const TopBar = () => {
             ) : activeNetwork.id === SupportedNetwork.BNB ? (
               <Item>BNB Price:</Item>
             ) : (
-              <Item>Eth Price:</Item>
+              <Item>Matic Price:</Item>
             )}
             <Item fontWeight="700" ml="4px">
               {formatDollarAmount(ethPrices?.current)}

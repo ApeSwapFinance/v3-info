@@ -95,4 +95,4 @@ export const BNBNetworkInfo: NetworkInfo = {
   blurb: '',
 }
 
-export const SUPPORTED_NETWORK_VERSIONS: NetworkInfo[] = [PolygonNetworkInfo, BNBNetworkInfo]
+export const SUPPORTED_NETWORK_VERSIONS: NetworkInfo[] = [BNBNetworkInfo, PolygonNetworkInfo]
